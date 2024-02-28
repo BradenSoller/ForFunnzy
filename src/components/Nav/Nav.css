@@ -3,9 +3,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: linear-gradient(90deg, white, black);
 
   margin: 0 0 30px;
-  background-color: #00acb0;
+  background-color: #ffffff;
   overflow: hidden;
 }
 
@@ -16,19 +17,26 @@
 .nav-title {
   font-size: 24px;
   font-weight: 700;
-  color: #f2f2f2;
+  color: white;
+
   padding-left: 10px;
   margin: 0;
+  width: 150px;
+  height: 50px;
+  
+
 }
 
 .navLink {
   display: inline-block;
-  color: #f2f2f2;
-  background-color: #00acb0;
+  color: #ffffff;
+  background-color: #000000;
   text-align: center;
   padding: 24px 10px;
   text-decoration: none;
   font-size: 15px;
+  border: 2px solid;
+  box-shadow: 10px 10px 10px;
 
   /* these last two make the logout button in
   the nav bar look like another link */
