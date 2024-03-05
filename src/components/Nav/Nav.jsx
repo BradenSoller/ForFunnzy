@@ -28,8 +28,8 @@ function Nav() {
               Home
             </Link>
 
-            <Link className="nav-title" to="/info">
-              Info Page
+            <Link className="nav-title" to="/newanime">
+              New Anime
             </Link>
 
             <LogOutButton className="nav-title" />

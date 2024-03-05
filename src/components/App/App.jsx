@@ -15,7 +15,7 @@ import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 
 import AboutPage from '../AboutPage/AboutPage';
 import HomePage from '../HomePage/Home';
-import InfoPage from '../InfoPage/InfoPage';
+import NewAnime from '../newAnime/newAnimePage';
 import LandingPage from '../LandingPage/LandingPage';
 import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
@@ -63,9 +63,9 @@ function App() {
           <ProtectedRoute
             // logged in shows InfoPage else shows LoginPage
             exact
-            path="/info"
+            path="/newanime"
           >
-            <InfoPage />
+            <NewAnime/>
           </ProtectedRoute>
 
           <Route
